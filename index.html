@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/estilo.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="assets/js/bootstrap.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+
+
+
+
+    <title>Agendamento de assentos</title>
+</head>
+
+<body class="bgcinza">
+    <header class="bgheader">
+        <div class="container">
+            <div class="row">
+                <div class="col-6"><img src="assets/images/header-left.jpg" alt=""></div>
+                <div class="col-6 text-end"><img src="assets/images/header-right.jpg" alt=""></div>
+                <div class="d-flex mb-3">
+                    <div class="me-auto p-2"></div>
+                    <div class=" ps-3 pe-4 py-2  text-center text-white rounded-3 rounded-top-0 bgblue abasuperior  ">
+                        Perfil: Gerência</div>
+                    <div class=" px-3  py-2  text-center color-yellow-text2 rounded-3 rounded-top-0 bgyellow z-0 ">
+                        Homologação</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <div class=" py-5">
+            <div class="rounded-2 bg-light p-3">
+                <div class="fs-6">
+                    <h4>Painel de mesas reservadas</h4>
+                    <p><span class="color-cinza-text">SIS FUNCEF / Reservas / Mesas /</span> <span
+                            class="color-azul-text">Painel</span> </p>
+                </div>
+            </div>
+        </div>
+
+        <div class=" py-5">
+            <div class="rounded-2 bg-light p-3 row">
+
+                <a class="btn btn-primary col m-2 align-middle" href="#" role="button"><ion-icon
+                        name="file-tray-full-outline"></ion-icon> Dirin</a>
+                <a class="btn btn-outline-primary col m-2" href="#" role="button"><ion-icon
+                        name="file-tray-full-outline"></ion-icon> Diben</a>
+                <a class="btn btn-outline-primary col m-2" href="#" role="button"><ion-icon
+                        name="file-tray-full-outline"></ion-icon> Presi</a>
+                <a class="btn btn-outline-primary col m-2 align-middle" href="#" role="button"><ion-icon
+                        name="file-tray-full-outline"></ion-icon> Diaco</a>
+
+                <div class="col-md-12 py-3 text-center ">
+
+                    <a class=" btn btn-primary rounded-pill m-1" href="#" role="button"><ion-icon
+                            name="calendar-clear-outline"></ion-icon> Reservar</a>
+                    <!-- <a class=" btn btn-outline-primary rounded-pill m-1 " href="#" role="button"><ion-icon
+                            name="eye-outline"></ion-icon> Visualizar reservas</a> -->
+                    <a class=" btn btn-outline-primary rounded-pill m-1" href="#" role="button"><ion-icon
+                            name="map-outline"></ion-icon> Planta baixa</a>
+
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class=" py-5">
+            <div class="rounded-2 bg-light p-3">
+                <h4 class=" text-center pb-5">Selecione uma data</h4>
+                <div class="row">
+                    <div class="col-md-3">
+                        Selecione a semana
+                        <hr>
+                        <img src="assets/images/Calendar.png" alt="">
+                    </div>
+                    <div class="col-md-5 ">
+                        Dados do usuário
+                        <hr>
+                        <label for="input" class="form-label">Nome Completo</label>
+                        <input type="text" id="nome" class="form-control" placeholder="Digite seu nome completo">
+                        <label for="input" class="form-label">Identificador</label>
+                        <input type="text" id="nome" class="form-control" placeholder="Digite seu Identificador">
+                        <div class="input-group my-3">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Equipe</option>
+                                <option value="1">Dirin </option>
+                                <option value="2">Diben</option>
+                                <option value="3">Presi</option>
+                                <option value="3">Diaco</option>
+                            </select>
+                            <span class="input-group-text"> - </span>
+
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Assento</option>
+                                <option value="1">12 </option>
+                                <option value="2">13</option>
+                                <option value="3">14</option>
+                            </select>
+                            <div class="col-md-12 d-flex justify-content-end py-3">
+                                <a class=" btn btn-outline-primary rounded-pill m-1" href="#" role="button"><ion-icon
+                                        name="map-outline"></ion-icon> Planta baixa</a>
+
+                                <a class=" btn btn-primary rounded-pill m-1 " href="#" role="button"><ion-icon
+                                        name="save-outline"></ion-icon> Reservar</a>
+
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        Status
+                        <hr>
+                        <div class="text-center"> <b>
+                            <ion-icon name="hourglass-outline"></ion-icon> Aguardando  <br>
+                            <span class="text-success"><ion-icon name="checkbox-outline"></ion-icon></span> Reservado com sucesso!  <br>
+                            <span class="text-danger"><ion-icon name="alert-circle-outline"></ion-icon></span> Reservado com sucesso!  <br></b>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class=" py-5 rounded-2 bg-light p-3  ">
+            <h4 class=" text-center mb-5 text-end">Mesas ocupadas</h4>
+            <span class="color-cinza-text fs-6 text">60 Ocupados</span> <span class="color-azul-tex fs-5 textt">32
+                Disponíveis</span>
+            <div class="input-group rounded">
+                <input type="search" class="form-control rounded" placeholder="Buscar por um assento nome específico"
+                    aria-label="Search" aria-describedby="search-addon" />
+                <span class="input-group-text border-0" id="search-addon">
+                    <i class="fas fa-search"></i>
+                </span>
+            </div>
+
+            <div class="row py-4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 py-2">
+                            <div class="border py-1 rounded-2">
+                                <div class="row">
+                                    <div class="col-md-3 text-center"><b>Dirin </b><br> A - 02</div>
+                                    <div class="col-md-9 color-azul-text"><b>Eduardo Nunes Neves</b> <br>
+                                        02 Dez até 06 Dez</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 py-2">
+                            <div class="border py-1 rounded-2">
+                                <div class="row">
+                                    <div class="col-md-3 text-center"><b>Dirin </b><br> A - 02</div>
+                                    <div class="col-md-9 color-azul-text"><b>Eduardo Nunes Neves</b> <br>
+                                        02 Dez até 06 Dez</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 py-2">
+                            <div class="border py-1 rounded-2">
+                                <div class="row">
+                                    <div class="col-md-3 text-center"><b>Dirin </b><br> A - 02</div>
+                                    <div class="col-md-9 color-azul-text"><b>Eduardo Nunes Neves</b> <br>
+                                        02 Dez até 06 Dez</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 py-2">
+                            <div class="border py-1 rounded-2">
+                                <div class="row">
+                                    <div class="col-md-3 text-center"><b>Dirin </b><br> A - 02</div>
+                                    <div class="col-md-9 color-azul-text"><b>Eduardo Nunes Neves</b> <br>
+                                        02 Dez até 06 Dez</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 py-2">
+                            <div class="border py-1 rounded-2">
+                                <div class="row">
+                                    <div class="col-md-3 text-center"><b>Dirin </b><br> A - 02</div>
+                                    <div class="col-md-9 color-azul-text"><b>Eduardo Nunes Neves</b> <br>
+                                        02 Dez até 06 Dez</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 py-2">
+                            <div class="border py-1 rounded-2">
+                                <div class="row">
+                                    <div class="col-md-3 text-center"><b>Dirin </b><br> A - 02</div>
+                                    <div class="col-md-9 color-azul-text"><b>Eduardo Nunes Neves</b> <br>
+                                        02 Dez até 06 Dez</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 py-2">
+                            <div class="border py-1 rounded-2">
+                                <div class="row">
+                                    <div class="col-md-3 text-center"><b>Dirin </b><br> A - 02</div>
+                                    <div class="col-md-9 color-azul-text"><b>Eduardo Nunes Neves</b> <br>
+                                        02 Dez até 06 Dez</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 py-2">
+                            <div class="border py-1 rounded-2">
+                                <div class="row">
+                                    <div class="col-md-3 text-center"><b>Dirin </b><br> A - 02</div>
+                                    <div class="col-md-9 color-azul-text"><b>Eduardo Nunes Neves</b> <br>
+                                        02 Dez até 06 Dez</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@font-face {
+    font-display: block;
+    font-family: "bootstrap-icons";
+    src: url("./fonts/bootstrap-icons.woff2?8d200481aa7f02a2d63a331fc782cfaf") format("woff2"),
+  url("./fonts/bootstrap-icons.woff?8d200481aa7f02a2d63a331fc782cfaf") format("woff");
+  }
+  /* https://ionic.io/ionicons */
+body {   
+    font-family: "Dosis", serif !important;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.bgcinza {
+    background-color: #E4E6EB;
+}
+.bgcinza2 {
+    background-color: #dddddd;
+}
+.bgblue {
+    background-color:  #2563EC;
+}
+.bgyellow {
+    background-color: #F6D500;
+}
+.bgyellow2 {
+    background-color: #7E7A01;
+}
+
+.bgheader {
+    height: 50px;
+
+    background-image: url(../images/header-bg.jpg);
+    background-repeat: repeat-x;
+    
+}
+.color-branco-text {
+    color: #FFF;
+}
+.color-cinza-text {
+    color: #A5A5A5;
+}
+.color-azul-text {
+    color:  #2563EC;
+}
+.color-yellow-text {
+    color: #F6D500;
+}
+.color-yellow-text2 {
+    color: #7E7A01;
+}
+.abasuperior {
+    margin-right: -10px;
+    
+    ;
+}
